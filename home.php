@@ -56,7 +56,11 @@
                     <li><a href="#portfolio" class="smoothScroll">ผลิตภัณฑ์</a></li>
                     <li><a href="#blog" class="smoothScroll">ข่าวสารและกิจกรรม</a></li>
                     <li><a href="#contact" class="smoothScroll">ติดต่อเรา</a></li>
+<<<<<<< HEAD
                     <li><a href="home/en" class="smoothScroll">EN</a></li>
+=======
+                    <li><a href="english/home.php" class="smoothScroll">EN</a></li>
+>>>>>>> 3672b3ca8a1ef25fa97b51c3e06c8c12f8599008
                 </ul>
             </div>
         </div>
@@ -70,7 +74,11 @@
                     <div class="social">
                         <a href="#">ภาษาไทย |</a>
                          
+<<<<<<< HEAD
                         <a href="home/en">| English</a>
+=======
+                        <a href="english/home.php">| English</a>
+>>>>>>> 3672b3ca8a1ef25fa97b51c3e06c8c12f8599008
                     </div>
                     <a class="home-down bounce" href="#about"><i class="fa fa-angle-down"></i></a>
                 </div>

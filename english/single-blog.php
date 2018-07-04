@@ -51,6 +51,7 @@
         <div class="row">
             <div class="container">
                 <div class="logo">
+<<<<<<< HEAD
                     <img src="../cms/images/logo.png" alt="">
                 </div>
                 <div class="responsive"><i data-icon="m" class="icon"></i></div>
@@ -61,6 +62,18 @@
                     <li><a href="../home/en#blog" class="smoothScroll">New & Activities</a></li>
                     <li><a href="../home/en#contact" class="smoothScroll">Contact us</a></li>
                     <li><a href="../home" class="smoothScroll">TH</a></li>
+=======
+                    <img src="cms/images/logo.png" alt="">
+                </div>
+                <div class="responsive"><i data-icon="m" class="icon"></i></div>
+                <ul class="nav-menu">
+                    <li><a href="home.php#home" class="smoothScroll">Home</a></li>
+                    <li><a href="home.php#about" class="smoothScroll">About</a></li>
+                    <li><a href="home.php#portfolio" class="smoothScroll">Products</a></li>
+                    <li><a href="home.php#blog" class="smoothScroll">New & Activities</a></li>
+                    <li><a href="home.php#contact" class="smoothScroll">Contact us</a></li>
+                    <li><a href="../home.php" class="smoothScroll">TH</a></li>
+>>>>>>> 3672b3ca8a1ef25fa97b51c3e06c8c12f8599008
                 </ul>
             </div>
         </div>
@@ -94,7 +107,11 @@
                 
                 </div>
 
+<<<<<<< HEAD
                  <a href="../home/en" class="sitebtn pull-right top_45">Back To home</a>
+=======
+                 <a href="home.php" class="sitebtn pull-right top_45">Back To home</a>
+>>>>>>> 3672b3ca8a1ef25fa97b51c3e06c8c12f8599008
                     <!-- <input id="con_submit" class="sitebtn" type="submit" value="Send a Message"> -->         
             </div>
         </div>

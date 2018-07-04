@@ -58,7 +58,11 @@
                     <li><a href="#portfolio" class="smoothScroll">Products</a></li>
                     <li><a href="#blog" class="smoothScroll">New & Activities</a></li>
                     <li><a href="#contact" class="smoothScroll">Contact us</a></li>
+<<<<<<< HEAD
                     <li><a href="../home" class="smoothScroll">TH</a></li>
+=======
+                    <li><a href="../home.php" class="smoothScroll">TH</a></li>
+>>>>>>> 3672b3ca8a1ef25fa97b51c3e06c8c12f8599008
                 </ul>
             </div>
         </div>
@@ -70,7 +74,11 @@
                 <div class="container">
                         <h1>CHAISERI <span class="element2" data-text1="Good Product" data-text2="High Quality" data-text4=" Cleanliness" data-text5="Safe" data-text3="Confidence" data-loop="true" data-backdelay="2000"></span></h1> 
                     <div class="social">
+<<<<<<< HEAD
                         <a href="../home">ภาษาไทย |</a>
+=======
+                        <a href="../home.php">ภาษาไทย |</a>
+>>>>>>> 3672b3ca8a1ef25fa97b51c3e06c8c12f8599008
                          
                         <a href="#">| English</a>
                     </div>
@@ -398,7 +406,11 @@
                 <!-- Blogs -->
                 <div class="row">           
                     <?php  while ($row = mysqli_fetch_array($blog_query_home)) { ?>
+<<<<<<< HEAD
                     <a href="../en/<?php echo $row['blog_id'] ?>" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content wow fadeInUp" data-wow-delay="0.4s">
+=======
+                    <a href="single-blog.php?id=<?php echo $row['blog_id'] ?>" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content wow fadeInUp" data-wow-delay="0.4s">
+>>>>>>> 3672b3ca8a1ef25fa97b51c3e06c8c12f8599008
                         <div class="blog-image">
                             <img src="../cms/images/<?php echo $row['image_upload_head'] ?> ">
                         </div>
@@ -407,7 +419,11 @@
                         <span class="blog-info"><?php echo $row['date'] ?> </span>
                     </a>
                     <?php } ?>
+<<<<<<< HEAD
                     <a href="../en/blog" class="sitebtn pull-right top_45">Load More</a>
+=======
+                    <a href="blog-page.php" class="sitebtn pull-right top_45">Load More</a>
+>>>>>>> 3672b3ca8a1ef25fa97b51c3e06c8c12f8599008
                 </div>
             </div>
             <svg class="diagonal-gray" width="100%" height="170" viewBox="0 0 100 102" preserveAspectRatio="none">
@@ -460,6 +476,7 @@
                     <div class="page-title sub">
                         <h5>leave us a message</h5>
                     </div>
+<<<<<<< HEAD
                     <form action="../english/save-contact.php" name="contact" method="post">
                         <div class="row contact-form top_60">
                             <!--Name-->
@@ -473,6 +490,21 @@
                             <div class="col-md-12">
                                 <!--Message-->
                                 <textarea name="con_message" id="con_message" class="requie" placeholder="How can I help you?" rows="8" required></textarea>
+=======
+                    <form action="save-contact.php" name="contact" method="post">
+                        <div class="row contact-form top_60">
+                            <!--Name-->
+                            <div class="col-md-6">
+                                <input id="con_name" name="con_name" class="form-inp requie" type="text" placeholder="Name">
+                            </div>
+                            <!--Email-->
+                            <div class="col-md-6">
+                                <input id="con_email" name="con_email" class="form-inp requie" type="text" placeholder="Email">
+                            </div>
+                            <div class="col-md-12">
+                                <!--Message-->
+                                <textarea name="con_message" id="con_message" class="requie" placeholder="How can I help you?" rows="8"></textarea>
+>>>>>>> 3672b3ca8a1ef25fa97b51c3e06c8c12f8599008
                                 <button id="con_submit" class="sitebtn top_30 pull-right" type="submit">Submit</button>     
                             </div>
                         </div>
@@ -563,13 +595,21 @@ Created by Thanapon</p>
      $('#modal-loader').show();      // load ajax loader on button click
 
             $.ajax({
+<<<<<<< HEAD
                 url: '../product-detail-en.php',
+=======
+                url: 'product-detail.php',
+>>>>>>> 3672b3ca8a1ef25fa97b51c3e06c8c12f8599008
                 type: 'POST',
                 data: 'id='+uid,
                 dataType: 'html'
             })
             .done(function(data){
+<<<<<<< HEAD
                 console.log(data); 
+=======
+               // console.log(data); 
+>>>>>>> 3672b3ca8a1ef25fa97b51c3e06c8c12f8599008
           $('#dynamic-content').html(''); // blank before load.
           $('#dynamic-content').html(data); // load here
           $('#modal-loader').hide(); // hide loader

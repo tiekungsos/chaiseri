@@ -53,12 +53,21 @@
                 </div>
                 <div class="responsive"><i data-icon="m" class="icon"></i></div>
                 <ul class="nav-menu">
+<<<<<<< HEAD
                     <li><a href="../home/en#home" class="smoothScroll">Home</a></li>
                     <li><a href="../home/en#about" class="smoothScroll">About</a></li>
                     <li><a href="../home/en#portfolio" class="smoothScroll">Products</a></li>
                     <li><a href="../home/en#blog" class="smoothScroll">New & Activities</a></li>
                     <li><a href="../home/en#contact" class="smoothScroll">Contact us</a></li>
                     <li><a href="../home" class="smoothScroll">TH</a></li>
+=======
+                    <li><a href="home.php#home" class="smoothScroll">Home</a></li>
+                    <li><a href="home.php#about" class="smoothScroll">About</a></li>
+                    <li><a href="home.php#portfolio" class="smoothScroll">Products</a></li>
+                    <li><a href="home.php#blog" class="smoothScroll">New & Activities</a></li>
+                    <li><a href="home.php#contact" class="smoothScroll">Contact us</a></li>
+                    <li><a href="../home.php" class="smoothScroll">TH</a></li>
+>>>>>>> 3672b3ca8a1ef25fa97b51c3e06c8c12f8599008
                 </ul>
             </div>
         </div>
@@ -68,9 +77,15 @@
     <div class="container content">
         <div class="row blog">
         <?php  while ($row = mysqli_fetch_array($blog_query)) { ?>     
+<<<<<<< HEAD
              <a href="<?php echo $row['blog_id'] ?>" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content">
                 <div class="blog-image">
                 <img src="../cms/images/<?php echo $row['image_upload_head'] ?> ">
+=======
+             <a href="single-blog.php?id=<?php echo $row['blog_id'] ?>" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content">
+                <div class="blog-image">
+                <img src="cms/images/<?php echo $row['image_upload_head'] ?> ">
+>>>>>>> 3672b3ca8a1ef25fa97b51c3e06c8c12f8599008
                 </div>
                 <h2 class="blog-title"><?php echo $row['name'] ?></h2>
                 <p><?php echo $row['description_head'] ?></p>
