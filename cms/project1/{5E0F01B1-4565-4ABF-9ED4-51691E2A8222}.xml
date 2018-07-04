@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration date="2018/07/02" author="e.World Technology Ltd.">
+  <project id="{5E0F01B1-4565-4ABF-9ED4-51691E2A8222}" file="C:\Users\thanapon.p\Desktop\ชัยเสรี\project1.pmp" name="project1" product="PHPMaker" version="14.0" datetime="2018/07/02 14:32:39" languagefolder="phplang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0">
+    <table id="blog" name="blog" caption="งานกิจกรรม" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="product" name="product" caption="สินค้า" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="user" name="user" caption="ผู้ใช้งาน" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="contact" name="contact" caption="ข้อมูลผู้ติดต่อ" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+  </project>
+</configuration>
