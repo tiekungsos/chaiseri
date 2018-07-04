@@ -1,4 +1,4 @@
-<?php include 'connect.php' ;
+<?php require_once '../connect.php' ;
 
  $blog_id = $_GET['id'];
 
@@ -13,26 +13,29 @@
 <html lang="en">
 <!-- Mirrored from tavonline.net/html/berlin/main/single-blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 29 Jun 2018 03:04:06 GMT -->
 <head>
-<title>Berlin - Portfolio Template</title>
+<title>Chaiseri</title>
 <meta charset="UTF-8">
-<meta name="description" content="Berlin Portfolio Template">
-<meta name="keywords" content="personal, portfolio">
+<meta name="description" content="cssesame">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="shortcut icon" href="cms/images/logo.png">
+<!-- Favicon -->   
+<link rel="shortcut icon" href="../cms/images/logo.png">
+
+
 <!-- Stylesheets -->
-<link rel="stylesheet" href="css/bootstrap.css"/>
-<link rel="stylesheet" href="css/reset.css"/>
-<link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="css/animate.css"/>
-<link rel="stylesheet" href="css/magnific-popup.css"/> 
+<link rel="stylesheet" href="../css/bootstrap.css"/>
+<link rel="stylesheet" href="../css/reset.css"/>
+<link rel="stylesheet" href="../css/style.css"/>
+<link rel="stylesheet" href="../css/animate.css"/>
+<link rel="stylesheet" href="../css/owl.carousel.css"/> 
+<link rel="stylesheet" href="../css/magnific-popup.css"/> 
     
 <!-- Google Web fonts -->
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Prompt:300,400,500,600,700" rel="stylesheet">
 
 <!-- Font icons -->
-<link rel="stylesheet" href="icon-fonts/font-awesome-4.5.0/css/font-awesome.min.css"/>
-<link rel="stylesheet" href="icon-fonts/essential-regular-fonts/essential-icons.css"/>
+<link rel="stylesheet" href="../icon-fonts/font-awesome-4.5.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="../icon-fonts/essential-regular-fonts/essential-icons.css"/>
 
 <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -44,7 +47,6 @@
 
     <!-- LOADER -->
     
-    
     <nav class="subpage-nav">
         <div class="row">
             <div class="container">
@@ -53,11 +55,12 @@
                 </div>
                 <div class="responsive"><i data-icon="m" class="icon"></i></div>
                 <ul class="nav-menu">
-                    <li><a href="home.php#home" class="smoothScroll">หน้าแรก</a></li>
-                    <li><a href="home.php#about" class="smoothScroll">เกี่ยวกับเรา</a></li>
-                    <li><a href="home.php#portfolio" class="smoothScroll">ผลิตภัณฑ์</a></li>
-                    <li><a href="home.php#blog" class="smoothScroll">ข่าวสารและกิจกรรม</a></li>
-                    <li><a href="home.php#contact" class="smoothScroll">ติดต่อเรา</a></li>
+                    <li><a href="home.php#home" class="smoothScroll">Home</a></li>
+                    <li><a href="home.php#about" class="smoothScroll">About</a></li>
+                    <li><a href="home.php#portfolio" class="smoothScroll">Products</a></li>
+                    <li><a href="home.php#blog" class="smoothScroll">New & Activities</a></li>
+                    <li><a href="home.php#contact" class="smoothScroll">Contact us</a></li>
+                    <li><a href="../home.php" class="smoothScroll">TH</a></li>
                 </ul>
             </div>
         </div>
@@ -68,7 +71,7 @@
         <div class="row">
             <div class="blog-single col-md-8 col-md-offset-2">
                 <div class="blog-image">
-                    <img src="cms/images/<?php echo $row['image_upload_head'] ?>" alt="">
+                    <img src="../cms/images/<?php echo $row['image_upload_head'] ?>" alt="">
                 </div>  
                 <h1><?php echo $row['name'] ?></h1>
                 <div class="blog-detail">Posted <span><?php echo $row['date'] ?></span>  </div>
@@ -83,8 +86,8 @@
                 <div class="post-lightbox row">
                     <?php 
                        for($i=0;$i<count($image);$i++){  ?>
-                        <a href="cms/images/<?php echo $image[$i] ?>" class="col-md-4 col-sm-4 col-xs-6 lightbox-image link">
-                        <img src="cms/images/<?php echo $image[$i] ?>" alt="">
+                        <a href="../cms/images/<?php echo $image[$i] ?>" class="col-md-4 col-sm-4 col-xs-6 lightbox-image link">
+                        <img src="../cms/images/<?php echo $image[$i] ?>" alt="">
                     </a>
                     <?php  } ?>
                 </div>
@@ -114,14 +117,16 @@ Created by tavonline</p>
     </footer>
     
 <!-- Javascripts -->
-<script src="js/jquery-2.1.4.min.js"></script><!-- jQuery library -->
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/wow.min.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/typed.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/main.js"></script>  
-    
+<script src="../js/jquery-2.1.4.min.js"></script>
+<script src="../js/bootstrap.min.js"></script> 
+<script src="../js/wow.min.js"></script>
+<script src="../js/isotope.pkgd.min.js"></script>
+<script src="../js/typed.js"></script>
+<script src="../js/jquery.magnific-popup.min.js"></script>
+<script src="../js/jquery.superslides.min.js"></script>
+<script src="../js/owl.carousel.min.js"></script>
+<script src="../js/main.js"></script>
+
  
 </body>
 
