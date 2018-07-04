@@ -1,31 +1,35 @@
-<?php include 'connect.php' ?>
+<?php require_once '../connect.php' ?>
 <!doctype html>
 <html lang="en">
 
 <!-- Mirrored from tavonline.net/html/berlin/main/blog-page.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 29 Jun 2018 03:04:15 GMT -->
 <head>
-<title>Berlin - Portfolio Template</title>
+<title>Chaiseri</title>
 <meta charset="UTF-8">
-<meta name="description" content="Berlin Portfolio Template">
-<meta name="keywords" content="personal, portfolio">
+<meta name="description" content="cssesame">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="shortcut icon" href="cms/images/logo.png">
+<!-- Favicon -->   
+<link rel="shortcut icon" href="../cms/images/logo.png">
+
+
+
 <!-- Stylesheets -->
-<link rel="stylesheet" href="css/bootstrap.css"/>
-<link rel="stylesheet" href="css/reset.css"/>
-<link rel="stylesheet" href="css/style.css"/>
-<link rel="stylesheet" href="css/animate.css"/>
-<link rel="stylesheet" href="css/owl.carousel.css"/> 
-<link rel="stylesheet" href="css/magnific-popup.css"/> 
-    
+<link rel="stylesheet" href="../css/bootstrap.css"/>
+<link rel="stylesheet" href="../css/reset.css"/>
+<link rel="stylesheet" href="../css/style.css"/>
+<link rel="stylesheet" href="../css/animate.css"/>
+<link rel="stylesheet" href="../css/owl.carousel.css"/> 
+<link rel="stylesheet" href="../css/magnific-popup.css"/> 
+<!-- <link rel="stylesheet" href="css/mdb.css"/>  -->
+
 <!-- Google Web fonts -->
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Prompt:300,400,500,600,700" rel="stylesheet">
 
 
 <!-- Font icons -->
-<link rel="stylesheet" href="icon-fonts/font-awesome-4.5.0/css/font-awesome.min.css"/>
-<link rel="stylesheet" href="icon-fonts/essential-regular-fonts/essential-icons.css"/>
+<link rel="stylesheet" href="../icon-fonts/font-awesome-4.5.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="../icon-fonts/essential-regular-fonts/essential-icons.css"/>
 
 <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -49,12 +53,12 @@
                 </div>
                 <div class="responsive"><i data-icon="m" class="icon"></i></div>
                 <ul class="nav-menu">
-                    <li><a href="home#home" class="smoothScroll">หน้าแรก</a></li>
-                    <li><a href="home#about" class="smoothScroll">เกี่ยวกับเรา</a></li>
-                    <li><a href="home#portfolio" class="smoothScroll">ผลิตภัณฑ์</a></li>
-                    <li><a href="home#blog" class="smoothScroll">ข่าวสารปละกิจกรรม</a></li>
-                    <li><a href="home#contact" class="smoothScroll">ติดต่อเรา</a></li>
-                    <li><a href="home/en" class="smoothScroll">EN</a></li>
+                    <li><a href="../home/en#home" class="smoothScroll">Home</a></li>
+                    <li><a href="../home/en#about" class="smoothScroll">About</a></li>
+                    <li><a href="../home/en#portfolio" class="smoothScroll">Products</a></li>
+                    <li><a href="../home/en#blog" class="smoothScroll">New & Activities</a></li>
+                    <li><a href="../home/en#contact" class="smoothScroll">Contact us</a></li>
+                    <li><a href="../home" class="smoothScroll">TH</a></li>
                 </ul>
             </div>
         </div>
@@ -66,11 +70,11 @@
         <?php  while ($row = mysqli_fetch_array($blog_query)) { ?>     
              <a href="<?php echo $row['blog_id'] ?>" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content">
                 <div class="blog-image">
-                <img src="cms/images/<?php echo $row['image_upload_head'] ?> ">
+                <img src="../cms/images/<?php echo $row['image_upload_head'] ?> ">
                 </div>
                 <h2 class="blog-title"><?php echo $row['name'] ?></h2>
                 <p><?php echo $row['description_head'] ?></p>
-                <span class="blog-info"><span>วันที่เขียน</span> - <?php echo $row['date'] ?> </span>
+                <span class="blog-info"><?php echo $row['date'] ?> </span>
             </a>
             <?php } ?>
         </div>
@@ -93,13 +97,16 @@ Created by tavonline</p>
     </footer>
     
 <!-- Javascripts -->
-<script src="js/jquery-2.1.4.min.js"></script><!-- jQuery library -->
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/wow.min.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/typed.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/main.js"></script>  
+
+<script src="../js/jquery-2.1.4.min.js"></script>
+<script src="../js/bootstrap.min.js"></script> 
+<script src="../js/wow.min.js"></script>
+<script src="../js/isotope.pkgd.min.js"></script>
+<script src="../js/typed.js"></script>
+<script src="../js/jquery.magnific-popup.min.js"></script>
+<script src="../js/jquery.superslides.min.js"></script>
+<script src="../js/owl.carousel.min.js"></script>
+<script src="../js/main.js"></script>
 
     
  

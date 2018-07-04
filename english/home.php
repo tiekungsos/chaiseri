@@ -1,4 +1,4 @@
-<?php require_once 'connect.php' ?>
+<?php require_once '../connect.php' ?>
 <!doctype html>
 <html lang="en">
 <!-- Mirrored from tavonline.net/html/berlin/main/diagonal-slider.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 29 Jun 2018 03:02:32 GMT -->
@@ -7,15 +7,17 @@
 <meta charset="UTF-8">
 <meta name="description" content="cssesame">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:image" content="../cms/images/logo.png">
 <!-- Favicon -->   
-<link rel="shortcut icon" href="cms/images/logo.png">
+
+<link rel="shortcut icon" href="../cms/images/logo.png">
 <!-- Stylesheets -->
-<link rel="stylesheet" href="css/bootstrap.css"/>
-<link rel="stylesheet" href="css/reset.css"/>
-<link rel="stylesheet" href="css/style.css"/>
-<link rel="stylesheet" href="css/animate.css"/>
-<link rel="stylesheet" href="css/owl.carousel.css"/> 
-<link rel="stylesheet" href="css/magnific-popup.css"/> 
+<link rel="stylesheet" href="../css/bootstrap.css"/>
+<link rel="stylesheet" href="../css/reset.css"/>
+<link rel="stylesheet" href="../css/style.css"/>
+<link rel="stylesheet" href="../css/animate.css"/>
+<link rel="stylesheet" href="../css/owl.carousel.css"/> 
+<link rel="stylesheet" href="../css/magnific-popup.css"/> 
 <!-- <link rel="stylesheet" href="css/mdb.css"/>  -->
 
 
@@ -27,8 +29,8 @@
 <link href="https://fonts.googleapis.com/css?family=Prompt:300,400,500,600,700" rel="stylesheet">
 
 <!-- Font icons -->
-<link rel="stylesheet" href="icon-fonts/font-awesome-4.5.0/css/font-awesome.min.css"/>
-<link rel="stylesheet" href="icon-fonts/essential-regular-fonts/essential-icons.css"/>
+<link rel="stylesheet" href="../icon-fonts/font-awesome-4.5.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="../icon-fonts/essential-regular-fonts/essential-icons.css"/>
 
 <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -47,16 +49,16 @@
         <div class="row">
             <div class="container">
                 <div class="logo">
-                    <img src="cms/images/logo.png" alt="">
+                    <img src="../cms/images/logo.png" alt="">
                 </div>
                 <div class="responsive"><i data-icon="m" class="icon"></i></div>
                 <ul class="nav-menu">
-                    <li><a href="#home" class="smoothScroll">หน้าแรก</a></li>
-                    <li><a href="#about" class="smoothScroll">เกี่ยวกับเรา</a></li>
-                    <li><a href="#portfolio" class="smoothScroll">ผลิตภัณฑ์</a></li>
-                    <li><a href="#blog" class="smoothScroll">ข่าวสารและกิจกรรม</a></li>
-                    <li><a href="#contact" class="smoothScroll">ติดต่อเรา</a></li>
-                    <li><a href="home/en" class="smoothScroll">EN</a></li>
+                    <li><a href="#home" class="smoothScroll">Home</a></li>
+                    <li><a href="#about" class="smoothScroll">About</a></li>
+                    <li><a href="#portfolio" class="smoothScroll">Products</a></li>
+                    <li><a href="#blog" class="smoothScroll">New & Activities</a></li>
+                    <li><a href="#contact" class="smoothScroll">Contact us</a></li>
+                    <li><a href="../home" class="smoothScroll">TH</a></li>
                 </ul>
             </div>
         </div>
@@ -66,11 +68,11 @@
     <section class="home slider" id="home"> 
             <div class="home-content">
                 <div class="container">
-                        <h1>ชัยเสรี <span class="element" data-text1="ผลิตภัณฑ์ดี มีคุณภาพ" data-text2="สะอาด ปลอดภัย" data-text3="สร้างความมั่นใจให้ผู้บริโภค" data-loop="true" data-backdelay="2000"></span></h1> 
+                        <h1>CHAISERI <span class="element2" data-text1="Good Product" data-text2="High Quality" data-text4=" Cleanliness" data-text5="Safe" data-text3="Confidence" data-loop="true" data-backdelay="2000"></span></h1> 
                     <div class="social">
-                        <a href="#">ภาษาไทย |</a>
+                        <a href="../home">ภาษาไทย |</a>
                          
-                        <a href="home/en">| English</a>
+                        <a href="#">| English</a>
                     </div>
                     <a class="home-down bounce" href="#about"><i class="fa fa-angle-down"></i></a>
                 </div>
@@ -78,11 +80,11 @@
              <div class="home-slider">
             <div id="slides">
               <div class="slides-container">
-             
-                <img src="cms/images/home/TIE_1515.jpg" alt="">
-                <img src="cms/images/home/TIE_1532-Pano.jpg" alt="">
-                <img src="cms/images/home/TIE_1190.jpg" alt="">
-                <img src="cms/images/home/TIE_1214.jpg" alt="">
+              
+                <img src="../cms/images/home/TIE_1515.jpg" alt="">
+                <img src="../cms/images/home/TIE_1532-Pano.jpg" alt="">
+                <img src="../cms/images/home/TIE_1190.jpg" alt="">
+                <img src="../cms/images/home/TIE_1214.jpg" alt="">
               </div>
            </div>
             </div>
@@ -102,20 +104,21 @@
             
                 <div class="col-md-4 col-sm-12 about-image">
                     <div class="row">
-                    <img src="cms/images/home/TIE_1256.jpg" alt="">
+                    <img src="../cms/images/home/TIE_1256.jpg" alt="">
                     </div>
                 </div>
                 <!-- about text -->
                 <div class="col-md-7 col-md-offset-1 col-sm-12 about-text wow fadeInUp"  data-wow-delay="0.6s">
                         <div class="section-title dleft bottom_30">
                           <br>
-                            <h2>เกี่ยวกับบริษัท</h2>
+                            <h2>About us</h2>
                         </div>
                         <p>
-                            ที่โรงงานของบริษัท ชัยเสรี จำกัด เราผลิตน้ำมันงาที่ผลิตจากกรรมวิธีทางธรรมชาติผ่านกระบวนการบีบอัดทั้งแบบผ่านความร้อนและไม่ผ่านความร้อน โดยปราศจากการแต่งเติมสารเคมีอันอาจก่อให้เกิดอันตรายต่อผู้บริโภคได้ 
+                           
+                            Chaiseri Co.,Ltd. we manufacture natural sesame oils mechanically both by cold and hot pressing without the addition or use of any chemicals or additives that may eventually prove harmful to consumers.   
                             
                         <br><br>
-                        โรงงานของเราได้รับการรับรองระบบคุณภาพจาก GMP,HACCP Codex และ HALAL ซึ่งเป็นระบบควบคุมคุณภาพที่เป็นมาตรฐานระบบสากล ผู้บริโภคจึงมั่นใจได้ว่าผลิตภัณฑ์น้ำมันงาของเรามีคุณภาพสูง สะอาด ถูกสุขลักษณะ โดยใช้กระบวนการบีบอัดที่สามารถคงคุณค่าทางสารอาหารของน้ำมันงาไว้ได้เป็นอย่างดี 
+                        Our Quality System and Factory have received GMP,HACCP Codex and HALAL accreditations. These are all international and well known quality standards. Consumers can rest assured that we produce high quality sesame oil in clean and hygienic environment using mechanical pressing processes to maintain the nutritional value of the sesame oils.
                         </p>
                 </div>
 
@@ -127,12 +130,12 @@
                             <i data-icon="1" class="icon"></i>
                         </div>
                         <div class="text">
-                            <h6>มาตรฐานที่ได้รับ</h6>
+                            <h6>Quality Certificate</h6>
                             <p>GMP Codex Alimentarius
-                                    HACPP Codex Alimentarius
-                                    CSR-DIW For Beginner Award 2013
-                                    ใบรับรอง Green Industry จากกระทรวงอุตสาหกรรม
-                                    หนังสือรับรองฮาลาล จากสำนักงานคณะกรรมการกลางอิสลามแห่งประเทศไทย</p>
+                                HACCP Codex Alimentarius
+                                CSR-DIW For Beginner Award 2013
+                                Green Industry by Ministry of industry
+                                HALAL Standard by the Center Isalamic Committee of Thailand</p>
                         </div>
                     </div>
                     <!-- an area -->
@@ -141,8 +144,8 @@
                             <i data-icon="!" class="icon"></i>
                         </div>
                         <div class="text">
-                            <h6>มั่นใจในแบนด์ของเรา</h6>
-                            <p>"เรามีความภาคภูมิใจในการผลิตและจัดจำหน่ายผลิตภัณฑ์น้ำมันงาคุณภาพสูงภายใต้ตราสินค้า“ช้างคู่” “ผีเสื้อ” และ “เนเจอร์” มายาวนานมากกว่า 30 ปี"</p>
+                            <h6>Branding identity</h6>
+                            <p>We are proud to have produced and distributed highest quality sesame oils under the “Twin Elephants” “Butterfly” and “Nature” brands for over 30 years.</p>
                         </div>
                     </div>
                     <!-- an area -->
@@ -151,44 +154,44 @@
                             <i data-icon="#" class="icon"></i>
                         </div>
                         <div class="text">
-                            <h6>เชื่อมั่นในคุณภาพ</h6>
-                            <p>บริษัทชัยเสรี จำกัด มุ่งมั่นที่จะผลิตสินค้าให้มีคุณภาพสูง สะอาด ถูกสุขลักษณะภายใต้การรับรองระบบคุณภาพ GMP,HACCP Codex</p>
+                            <h6>Confidence in quality</h6>
+                            <p>Chaiseri Co.,Ltd is committed to produce high quality products in clean and hygienic environment under GMP,HACCP Codex certificate.</p>
                         </div>
                     </div>
                      <!-- an area -->
                      <div class="area col-md-12 item">
-                            <div class="icon">
-                                <i data-icon="1" class="icon"></i>
-                            </div>
-                            <div class="text">
-                                <h6>มาตรฐานที่ได้รับ</h6>
-                                <p>GMP Codex Alimentarius
-                                        HACPP Codex Alimentarius
-                                        CSR-DIW For Beginner Award 2013
-                                        ใบรับรอง Green Industry จากกระทรวงอุตสาหกรรม
-                                        หนังสือรับรองฮาลาล จากสำนักงานคณะกรรมการกลางอิสลามแห่งประเทศไทย</p>
-                            </div>
+                        <div class="icon">
+                            <i data-icon="1" class="icon"></i>
                         </div>
+                        <div class="text">
+                            <h6>Quality Certificate</h6>
+                            <p>GMP Codex Alimentarius
+                                HACCP Codex Alimentarius
+                                CSR-DIW For Beginner Award 2013
+                                Green Industry by Ministry of industry
+                                HALAL Standard by the Center Isalamic Committee of Thailand</p>
+                        </div>
+                    </div>
                         <!-- an area -->
                         <div class="area col-md-12 item">
-                            <div class="icon">
-                                <i data-icon="!" class="icon"></i>
-                            </div>
-                            <div class="text">
-                                <h6>มั่นใจในแบนด์ของเรา</h6>
-                                <p>"เรามีความภาคภูมิใจในการผลิตและจัดจำหน่ายผลิตภัณฑ์น้ำมันงาคุณภาพสูงภายใต้ตราสินค้า“ช้างคู่” “ผีเสื้อ” และ “เนเจอร์” มายาวนานมากกว่า 30 ปี"</p>
-                            </div>
+                        <div class="icon">
+                            <i data-icon="!" class="icon"></i>
                         </div>
+                        <div class="text">
+                            <h6>Branding identity</h6>
+                            <p>We are proud to have produced and distributed highest quality sesame oils under the “Twin Elephants” “Butterfly” and “Nature” brands for over 30 years.</p>
+                        </div>
+                    </div>
                         <!-- an area -->
                         <div class="area col-md-12 item">
-                            <div class="icon">
-                                <i data-icon="#" class="icon"></i>
-                            </div>
-                            <div class="text">
-                                <h6>เชื่อมั่นในคุณภาพ</h6>
-                                <p>บริษัทชัยเสรี จำกัด มุ่งมั่นที่จะผลิตสินค้าให้มีคุณภาพสูง สะอาด ถูกสุขลักษณะภายใต้การรับรองระบบคุณภาพ GMP,HACCP Codex</p>
-                            </div>
+                        <div class="icon">
+                            <i data-icon="#" class="icon"></i>
                         </div>
+                        <div class="text">
+                            <h6>Confidence in quality</h6>
+                            <p>Chaiseri Co.,Ltd is committed to produce high quality products in clean and hygienic environment under GMP,HACCP Codex certificate.</p>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -206,59 +209,59 @@
                         <!-- Item -->
                         <a href="#" class="popup-youtube single_item link development col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
                             <i class="fa fa-play" aria-hidden="true"></i>   
-                            <img src="images/work-1.jpg" alt=""> 
+                            <img src="../images/work-1.jpg" alt=""> 
                         </a>
                         <!-- Item -->
                         <a href="#" class="single_item link  col-md-3 col-sm-4 wow fadeInUp " data-wow-delay="0.6s">
-                            <img src="images/work-1.jpg" alt=""> 
+                            <img src="../images/work-1.jpg" alt=""> 
                         </a>
                         <!-- Item -->
                         <a href="#" class="single_item link  col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
-                            <img src="images/work-1.jpg" alt=""> 
+                            <img src="../images/work-1.jpg" alt=""> 
                         </a>
                         <!-- Item -->
                         <a href="#" class="single_item link col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="1.2s">
-                            <img src="images/blog-2.jpg" alt=""> 
+                            <img src="../images/blog-2.jpg" alt=""> 
                         </a>
                         <!-- Item -->
                         <a href="#" class="single_item link  col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="1.5s">
-                            <img src="images/work-5.jpg" alt=""> 
+                            <img src="../images/work-5.jpg" alt=""> 
                         </a>
                         <!-- Item -->
                         <a href="#" class="single_item link col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="1.8s">
-                            <img src="images/work-6.jpg" alt=""> 
+                            <img src="../images/work-6.jpg" alt=""> 
                         </a>
                         <a href="#" class="single_item link col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="1.2s">
-                            <img src="images/blog-2.jpg" alt=""> 
+                            <img src="../images/blog-2.jpg" alt=""> 
                         </a>
                         <a href="#" class="single_item link  col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
-                            <img src="images/work-1.jpg" alt=""> 
+                            <img src="../images/work-1.jpg" alt=""> 
                         </a>
                         <a href="#" class="single_item link col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="1.2s">
-                            <img src="images/blog-2.jpg" alt=""> 
+                            <img src="../images/blog-2.jpg" alt=""> 
                         </a>
                         <a href="#" class="single_item link col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="1.2s">
-                            <img src="images/blog-2.jpg" alt=""> 
+                            <img src="../images/blog-2.jpg" alt=""> 
                         </a>
                         <a href="#" class="single_item link col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="1.8s">
-                            <img src="images/work-6.jpg" alt=""> 
+                            <img src="../images/work-6.jpg" alt=""> 
                         </a>
                         <a href="#" class="single_item link col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="1.8s">
-                            <img src="images/work-6.jpg" alt=""> 
+                            <img src="../images/work-6.jpg" alt=""> 
                         </a>
                         <a href="#" class="single_item link col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="1.2s">
-                            <img src="images/blog-2.jpg" alt=""> 
+                            <img src="../images/blog-2.jpg" alt=""> 
                         </a>
                         <a href="#" class="single_item link col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="1.2s">
-                            <img src="images/blog-2.jpg" alt=""> 
+                            <img src="../images/blog-2.jpg" alt=""> 
                         </a>
                         <a href="#" class="popup-youtube single_item link development col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
                             <i class="fa fa-play" aria-hidden="true"></i>   
-                            <img src="images/work-1.jpg" alt=""> 
+                            <img src="../images/work-1.jpg" alt=""> 
                         </a>
                         <a href="#" class="popup-youtube single_item link development col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
                             <i class="fa fa-play" aria-hidden="true"></i>   
-                            <img src="images/work-1.jpg" alt=""> 
+                            <img src="../images/work-1.jpg" alt=""> 
                         </a>
                     </div>
                 </div>
@@ -270,23 +273,23 @@
     <section class="portfolio dgray-bg" id="about">
         <div class="container">
         <div class="section-title">
-                            <h2>ผู้บริหาร</h2>
+                            <h2>Board of directors</h2>
                         </div>
         <div class="owl-carousel " data-pagination="false" data-autoplay="5000" data-items-desktop="1" data-items-desktop-small="1" data-items-tablet="1" data-items-tablet-small="1">
                   <!-- an area -->
                   <div class="area col-md-12 item">                
                 <div class="col-md-4 col-sm-12 about-image">
                     <div class="row">
-                        <img src="cms/images/444.jpg" alt="">
+                        <img src="../cms/images/444.jpg" alt="">
                     </div>
                 </div>
                 <!-- about text -->
                 <div class="col-md-7 col-md-offset-1 col-sm-12 about-text wow fadeInUp top_120"  data-wow-delay="0.6s">
                         <p>
-                        “เรามีความภาคภูมิใจในการผลิตและจัดจำหน่ายผลิตภัณฑ์น้ำมันงาคุณภาพสูงภายใต้ตราสินค้า “ช้างคู่” “ผีเสื้อ” และ “เนเจอร์” มายาวนานมากกว่า 30 ปี”
+                        We are proud to have produced and distributed highest quality sesame oils under the “Twin Elephants” “Butterfly” and “Nature” brands for over 30 years.
                             </p> <br>
-                        <h5>นายวิชัย เสรีเสถียรทรัพย์</h5>
-                        <p>ประธานกรรมการ</p>
+                        <h5>Mr. Wichai Seresathiensup</h5>
+                        <p>Chairman of directors</p>
                      
                 </div>   
                 </div>
@@ -296,16 +299,16 @@
                 
                 <div class="col-md-4 col-sm-12 about-image">
                     <div class="row">
-                        <img src="cms/images/444.jpg" alt="">
+                        <img src="../cms/images/444.jpg" alt="">
                     </div>
                 </div>
                 <!-- about text -->
                 <div class="col-md-7 col-md-offset-1 col-sm-12 about-text wow fadeInUp top_120"  data-wow-delay="0.6s">
                         <p>
-                        “บริษัทชัยเสรี จำกัด มุ่งมั่นที่จะผลิตสินค้าให้มีคุณภาพสูง สะอาด ถูกสุขลักษณะภายใต้การรับรองระบบคุณภาพ GMP,HACCP Codex ”
+                        Chaiseri Co.,Ltd is committed to produce high quality products in clean and hygienic environment under GMP,HACCP Codex certificate.
                             </p> <br>
-                        <h5>นางสาวธัญชนก เสรีเสถียรทรัพย์</h5>
-                        <p>กรรมการผู้จัดการ</p>
+                        <h5>Miss. Thanchanoke Seresathiensup</h5>
+                        <p>Managing Director</p>
                     
                 </div>
                 </div>
@@ -323,13 +326,13 @@
     <section class="portfolio " id="portfolio">
         <div class="container">
             <div class="section-title dleft  bottom_90">
-                <h2>ผลิตภัณฑ์</h2>
+                <h2>Products</h2>
                 <div class="portfolio_filter">
                     <ul>
-                        <li class="select-cat" data-filter="*">ทั้งหมด</li>
-                        <li data-filter=".1">ตราช้างคู่</li>
-                        <li data-filter=".2">ตราผีเสื้อ</li>
-                        <li data-filter=".3">ตราเนเจอร์</li>
+                        <li class="select-cat" data-filter="*">All</li>
+                        <li data-filter=".1">Twin Elephants</li>
+                        <li data-filter=".2">Butterfly</li>
+                        <li data-filter=".3">Nature</li>
                     </ul>
                 </div>
             </div>
@@ -340,30 +343,38 @@
                     <?php  while ($row = mysqli_fetch_array($product_query)) { ?>
                         <!-- Item -->
                         <a href="#" class="single_item link <?php echo $row['brand'] ?> col-md-4 col-sm-6 wow fadeInUp " data-wow-delay="0.6s" >
-                            <img  src="cms/images/product/<?php echo $row['img'] ?>" alt=""> 
+                            <img  src="../cms/images/product/<?php echo $row['img'] ?>" alt=""> 
 
                             <?php if($row['type'] == 1) { ?>
-                            <p><?php echo 'ขวดแก้ว  ขนาด '.$row['size'] ?> ML</p>
+                            <p><?php echo 'Glass bottles '.$row['size'] ?> ML</p>
                             <button type="button" class="sitebtn" data-toggle="modal" data-target="#view-modal" data-id="<?php echo $row["product_id"]; ?>" id="getUser" > 
-                            ข้อมูลเพิ่มเติม
+                            More information
                             </button>      
                             <?php } 
+
                              else if($row['type'] == 2) { ?>
-                            <p><?php echo 'ขวดPET  ขนาด '.$row['size'] ?> ML</p>
+                            <p><?php echo 'Plastic bottles  '.$row['size'] ?> ML</p>
                             <button type="button" class="sitebtn" data-toggle="modal" data-target="#view-modal" data-id="<?php echo $row["product_id"]; ?>" id="getUser" > 
-                            ข้อมูลเพิ่มเติม
+                            More information
                             </button>     
                             <?php } 
-                             else if($row['type'] == 3) { ?>
-                            <p><?php echo 'แกลอนพาสติก  ขนาด '.$row['size'] ?> KG</p>
-                            <button type="button" class="sitebtn" data-toggle="modal" data-target="#view-modal" data-id="<?php echo $row["product_id"]; ?>" id="getUser" > 
-                            ข้อมูลเพิ่มเติม
-                            </button>     
-                            <?php } 
+                            else if($row['type'] == 3) { ?>
+                                <p><?php echo 'PET  '.$row['size'] ?> CC</p>
+                                <button type="button" class="sitebtn" data-toggle="modal" data-target="#view-modal" data-id="<?php echo $row["product_id"]; ?>" id="getUser" > 
+                                More information
+                                </button>     
+                                <?php } 
+
                              else if($row['type'] == 4) { ?>
-                            <p><?php echo 'แบบปิ๊บ  ขนาด '.$row['size'] ?> KG</p>
+                            <p><?php echo 'Gallon '.$row['size'] ?> KG</p>
                             <button type="button" class="sitebtn" data-toggle="modal" data-target="#view-modal" data-id="<?php echo $row["product_id"]; ?>" id="getUser" > 
-                            ข้อมูลเพิ่มเติม
+                            More information
+                            </button>     
+                            <?php } 
+                             else if($row['type'] == 5) { ?>
+                            <p><?php echo 'Bucket '.$row['size'] ?> KG</p>
+                            <button type="button" class="sitebtn" data-toggle="modal" data-target="#view-modal" data-id="<?php echo $row["product_id"]; ?>" id="getUser" > 
+                            More information
                             </button>      
                             <?php } ?>
                         </a>                   
@@ -382,21 +393,21 @@
         <div class="container-fluid dgray-bg padbot_200">
             <div class="container">
                 <div class="section-title dright top_120 bottom_45">
-                    <h2>กิจกรรม</h2>
+                    <h2>News & Activities</h2>
                 </div>
                 <!-- Blogs -->
                 <div class="row">           
                     <?php  while ($row = mysqli_fetch_array($blog_query_home)) { ?>
-                    <a href="<?php echo $row['blog_id'] ?>" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content wow fadeInUp" data-wow-delay="0.4s">
+                    <a href="../en/<?php echo $row['blog_id'] ?>" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 blog-content wow fadeInUp" data-wow-delay="0.4s">
                         <div class="blog-image">
-                            <img src="cms/images/<?php echo $row['image_upload_head'] ?> ">
+                            <img src="../cms/images/<?php echo $row['image_upload_head'] ?> ">
                         </div>
                         <h2 class="blog-title"><?php echo $row['name'] ?></h2>
                         <p><?php echo $row['description_head'] ?></p>
-                        <span class="blog-info"><span>วันที่เขียน</span> - <?php echo $row['date'] ?> </span>
+                        <span class="blog-info"><?php echo $row['date'] ?> </span>
                     </a>
                     <?php } ?>
-                    <a href="blog" class="sitebtn pull-right top_45">Load More</a>
+                    <a href="../en/blog" class="sitebtn pull-right top_45">Load More</a>
                 </div>
             </div>
             <svg class="diagonal-gray" width="100%" height="170" viewBox="0 0 100 102" preserveAspectRatio="none">
@@ -410,20 +421,20 @@
         <div class="container">
             
             <div class="section-title dleft top_90">
-                <h2 class="bottom_30">บริษัท ชัยเสรี จำกัด</h2>
+                <h2 class="bottom_30">Chaiseri Co.,Ltd.</h2>
             </div>
             <div class="col-md-3">
                     <div class="section-title dleft ">
-                            <h3 class="bottom_30">ที่อยู่</h3>
+                            <h3 class="bottom_30">Address</h3>
                     </div>
                 <!-- Contact Info -->
                 <ul class="contact-info row">
-                    <li>315 หมู่ 1 ถนนเชียงใหม่-ลำพูน ตำบลหนองผึ้ง
-                            อำเภอสารภี จังหวัดเชียงใหม่ 50140</li>
+                    <li>315 M.1 Chiangmai-Lamphun Rd.
+                        T.Nongpueng, A.Saraphi, Chiangmai 50140</li>
                     <li><br>chaiseri1978@hotmail.com</li>
                     <li>053-321561 ,081-7166399, 089-6330173</li>
-                    <li>โทรสาร : 053-325364</li>
-                    <li>วันทำการ : จันทร์ - เสาร์ 08:00-17:00 น. </li>
+                    <li>Fax  : 053-325364</li>
+                    <li>Opening Hours : Monday - Saturday 8.00 a.m. - 5.00 p.m.</li>
                 </ul>
                 <br>
                 <!-- <div class="social-icons top_60 row"> 
@@ -436,20 +447,20 @@
             </div>
             <div class="col-md-3">
                     <div class="section-title dleft ">
-                            <h3 class="bottom_30">สำนักงานขาย</h3>
+                            <h3 class="bottom_30">Sale Office</h3>
                     </div>
                     <ul class="contact-info row">
-                        <li>377-379 ซอยประชาอุทิศ 44 ถนนประชาอุทิศ
-                                แขวงบางมด เขตทุ่งครุ กรุงเทพมหานคร 10140</li>
+                        <li>377-379 Soi Prachautid, 
+                            Bangmod, Tungkru, Bangkok 10140</li>
                         <li><br>chaiseri1978@hotmail.com</li>
                         <li>02-8702798 , 081-3723151 </li>
                     </ul>
             </div>
             <div class="col-md-5 col-md-offset-1  bottom_60">
                     <div class="page-title sub">
-                        <h5>ติดต่อสอบถาม</h5>
+                        <h5>leave us a message</h5>
                     </div>
-                    <form action="save-contact.php" name="contact" method="post">
+                    <form action="../english/save-contact.php" name="contact" method="post">
                         <div class="row contact-form top_60">
                             <!--Name-->
                             <div class="col-md-6">
@@ -482,7 +493,7 @@
             <p>Copyright © 2018 , All rights Reserved. <br/>
 Created by Thanapon</p>
         <div class="social">
-            <a target ="_blank" href="cms/login.php">Login</a>
+            <a target ="_blank" href="../cms/login.php">Login</a>
         </div>
         </div>
     </footer>   
@@ -504,7 +515,7 @@ Created by Thanapon</p>
            <!-- ajax loader -->
             <div class="col-md-12 col-sm-12 about-image">
                 <div align="center">
-                <img src="cms/images/Loading_icon.gif">
+                <img src="../cms/images/Loading_icon.gif">
                 </div>
             </div>
            </div>     
@@ -521,15 +532,15 @@ Created by Thanapon</p>
 
 <!-- Javascripts -->
 
-<script src="js/jquery-2.1.4.min.js"></script>
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/wow.min.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/typed.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/jquery.superslides.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/main.js"></script>
+<script src="../js/jquery-2.1.4.min.js"></script>
+<script src="../js/bootstrap.min.js"></script> 
+<script src="../js/wow.min.js"></script>
+<script src="../js/isotope.pkgd.min.js"></script>
+<script src="../js/typed.js"></script>
+<script src="../js/jquery.magnific-popup.min.js"></script>
+<script src="../js/jquery.superslides.min.js"></script>
+<script src="../js/owl.carousel.min.js"></script>
+<script src="../js/main.js"></script>
 <script>
 
    //SUPER SLİDER
@@ -552,13 +563,13 @@ Created by Thanapon</p>
      $('#modal-loader').show();      // load ajax loader on button click
 
             $.ajax({
-                url: 'product-detail.php',
+                url: '../product-detail-en.php',
                 type: 'POST',
                 data: 'id='+uid,
                 dataType: 'html'
             })
             .done(function(data){
-               // console.log(data); 
+                console.log(data); 
           $('#dynamic-content').html(''); // blank before load.
           $('#dynamic-content').html(data); // load here
           $('#modal-loader').hide(); // hide loader

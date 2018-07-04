@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteRule    ^blog/?$    blog-page.php
+RewriteRule    ^home/?$    home.php 
+RewriteRule    ^([0-9]+)/?$    single-blog.php?id=$1    [NC,L]
+
+RewriteRule    ^home/en?$    english/home.php
+RewriteRule    ^en/blog?$    english/blog-page.php
+RewriteRule    ^en/([0-9]+)?$   english/single-blog.php?id=$1    [NC,L]
+
